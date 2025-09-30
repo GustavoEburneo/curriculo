@@ -9,7 +9,7 @@ import Accordion from "./components/ui/accordion/Accordion.vue";
 import AccordionItem from "./components/ui/accordion/AccordionItem.vue";
 import AccordionTrigger from "./components/ui/accordion/AccordionTrigger.vue";
 import AccordionContent from "./components/ui/accordion/AccordionContent.vue";
-import { accordionItems, svgs } from "./conts";
+import { accordionItems, svgs } from "./consts";
 import Label from "./components/ui/label/Label.vue";
 import {
   Tooltip,
@@ -34,17 +34,17 @@ const defaultValue = accordionItems[0]?.value;
   </div>
 
   <Card class="rounded-2xl p-3 opacity-100">
-    <section class="flex gap-4 items-center relative">
-      <Avatar>
-        <AvatarImage src="" alt="Luiz Gustavo Eburneo" />
+    <section class="md:flex relative">
+      <Avatar class="mx-auto mb-4 md:m-4 md:mr-12">
+        <AvatarImage src="/src/assets/me.png" alt="Luiz Gustavo Eburneo" />
         <AvatarFallback class="text-4xl">LE</AvatarFallback>
       </Avatar>
 
       <div>
-        <h1 class="!text-4xl">Luiz Gustavo Eburneo</h1>
-        <h2>Desenvolvedor Frontend</h2>
+        <h1 class="!text-4xl text-center">Luiz Gustavo Eburneo</h1>
+        <h2 class="text-center md:text-left">Desenvolvedor Frontend</h2>
 
-        <div class="flex flex-col gap-2 mt-3">
+        <div class="flex flex-col gap-2 mt-3 items-center md:items-start">
           <div class="flex items-center gap-2">
             <Github :size="20" />
             <a href="https://www.linkedin.com/in/gustavo-eburneo/">
@@ -67,7 +67,7 @@ const defaultValue = accordionItems[0]?.value;
       </div>
     </section>
 
-    <Separator class="my-2 bg-gray-800" />
+    <Separator class="my-2 bg-gray-500" />
 
     <div class="flex flex-wrap gap-3 items-center justify-center">
       <div v-for="svg in svgs" :key="svg.id">
@@ -110,10 +110,10 @@ const defaultValue = accordionItems[0]?.value;
               v-for="(content, index) in item.contents"
               :key="index"
             >
-              <section class="mx-10">
+              <section class="md:mx-10 mx-4">
                 <div class="mb-3">
                   <p class="text-xl">{{ content.title }}</p>
-                  <p class="text-xs">{{ content.subtitle }}</p>
+                  <p>{{ content.subtitle }}</p>
                 </div>
 
                 <p v-if="content.description" class="text-justify mb-6">
@@ -122,7 +122,7 @@ const defaultValue = accordionItems[0]?.value;
 
                 <Separator
                   v-if="index !== item.contents.length - 1"
-                  class="bg-gray-800 my-3"
+                  class="bg-gray-500 my-3"
                 />
               </section>
             </AccordionContent>

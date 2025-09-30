@@ -98,7 +98,13 @@ export const accordionItems = [
     title: "idiomas",
     contents: [
       {
-        title: "",
+        title: "Português - Nativo",
+        subtitle: "",
+        description: "",
+      },
+      {
+        title:
+          "Inglês - Intermediário em leitura, intermediário em escrita e básico em conversação",
         subtitle: "",
         description: "",
       },
@@ -109,9 +115,10 @@ export const accordionItems = [
     title: "Cursos e Expecializações",
     contents: [
       {
-        title: "",
-        subtitle: "",
-        description: "",
+        title: "Desafio: Sua primeira API em Node.js",
+        subtitle: "Rocketseat - 2025",
+        description:
+          "Desenvolvimento de uma API completa utilizando Fastify, TypeScript, JWT, Zod, PostgreSQL e Drizzle ORM. Implementação de autenticação, criação de entidades e testes automatizados com Vitest e Supertest, com foco na integração de conceitos de backend a partir da visão de um desenvolvedor frontend.",
       },
     ],
   },
