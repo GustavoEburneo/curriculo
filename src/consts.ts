@@ -6,8 +6,8 @@ export const accordionItems = [
     title: "Resumo Profissional",
     contents: [
       {
-        title: null,
-        subtitle: null,
+        title: "",
+        subtitle: "",
         description: `Sou um desenvolvedor frontend com forte atuação em aplicações Vue.js e
       Nuxt.js. Tenho experiência em projetos da área de atuação e de
       manutenção de projetos legados, refinamento de demandas, apoio a

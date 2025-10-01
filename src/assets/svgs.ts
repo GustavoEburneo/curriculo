@@ -1,47 +1,22 @@
-import css from "@/assets/svg/css.svg";
-import docker from "@/assets/svg/docker.svg";
-import drizzle from "@/assets/svg/drizzle.svg";
-import fastify from "@/assets/svg/fastify.svg";
-import git from "@/assets/svg/git.svg";
-import github from "@/assets/svg/github.svg";
-import gitlab from "@/assets/svg/gitlab.svg";
-import html from "@/assets/svg/html.svg";
-import javascript from "@/assets/svg/javascript.svg";
-import mysql from "@/assets/svg/mysql.svg";
-import nodejs from "@/assets/svg/nodejs.svg";
-import pinia from "@/assets/svg/pinia.svg";
-import postgresql from "@/assets/svg/postgresql.svg";
-import react from "@/assets/svg/react.svg";
-import tailwind from "@/assets/svg/tailwind.svg";
-import typescript from "@/assets/svg/typescript.svg";
-import vitejs from "@/assets/svg/vitejs.svg";
-import vitest from "@/assets/svg/vitest.svg";
-import vue from "@/assets/svg/vue.svg";
-import vuex from "@/assets/svg/vuex.svg";
-import github_dark from "@/assets/svg/github-dark.svg";
-import fastify_dark from "@/assets/svg/fastify-dark.svg";
-
-export {
-  css,
-  docker,
-  drizzle,
-  fastify,
-  git,
-  github,
-  gitlab,
-  html,
-  javascript,
-  mysql,
-  nodejs,
-  pinia,
-  postgresql,
-  react,
-  tailwind,
-  typescript,
-  vitejs,
-  vitest,
-  vue,
-  vuex,
-  github_dark,
-  fastify_dark,
-};
+export { default as css } from "@/assets/svg/css.svg";
+export { default as docker } from "@/assets/svg/docker.svg";
+export { default as drizzle } from "@/assets/svg/drizzle.svg";
+export { default as fastify } from "@/assets/svg/fastify.svg";
+export { default as git } from "@/assets/svg/git.svg";
+export { default as github } from "@/assets/svg/github.svg";
+export { default as gitlab } from "@/assets/svg/gitlab.svg";
+export { default as html } from "@/assets/svg/html.svg";
+export { default as javascript } from "@/assets/svg/javascript.svg";
+export { default as mysql } from "@/assets/svg/mysql.svg";
+export { default as nodejs } from "@/assets/svg/nodejs.svg";
+export { default as pinia } from "@/assets/svg/pinia.svg";
+export { default as postgresql } from "@/assets/svg/postgresql.svg";
+export { default as react } from "@/assets/svg/react.svg";
+export { default as tailwind } from "@/assets/svg/tailwind.svg";
+export { default as typescript } from "@/assets/svg/typescript.svg";
+export { default as vitejs } from "@/assets/svg/vitejs.svg";
+export { default as vitest } from "@/assets/svg/vitest.svg";
+export { default as vue } from "@/assets/svg/vue.svg";
+export { default as vuex } from "@/assets/svg/vuex.svg";
+export { default as github_dark } from "@/assets/svg/github-dark.svg";
+export { default as fastify_dark } from "@/assets/svg/fastify-dark.svg";
